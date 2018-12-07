@@ -45,7 +45,6 @@ try_compile(HAVE_OPTIONAL
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.h.in ${PROJECT_SOURCE_DIR}/config.h)
 
-add_subdirectory(test)
 
 # Install static lib.
 install(TARGETS ${STATIC_LIB}
